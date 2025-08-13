@@ -1,19 +1,20 @@
-# OIBSIP_DataScience_2
-1. Unemployment in India – COVID-19 Impact Analysis
+# OIBSIP_DataScience_1
+
+1. Iris Flower Classification
 
 Objective:
-Analyze unemployment rate trends in India, highlighting the spike during the COVID-19 pandemic.
+To classify iris flowers into three species (Setosa, Versicolor, Virginica) based on sepal and petal measurements.
 
 Steps Performed:
-Loaded unemployment dataset (Unemployment in India.csv).
-Cleaned data.
-Created a time-series plot of unemployment rate.
-Highlighted April–June 2020 to show COVID-19’s impact.
+Loaded the Iris dataset from Scikit-learn.
+Split into training and testing sets.
+Trained a Random Forest classifier.
+Predicted species on test data.
+Evaluated model with accuracy score and classification report.
 
 Tools Used:
 Python
-Pandas for data manipulation
-Matplotlib & Seaborn for visualization
+Scikit-learn (dataset, model, evaluation)
 
 Outcome:
-The plot clearly shows a sharp rise in unemployment during mid-2020, matching the pandemic lockdown period.
+Achieved high classification accuracy (>95%) on the test set, showing the model’s effectiveness for flower species identification.
